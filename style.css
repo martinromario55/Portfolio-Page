@@ -99,7 +99,14 @@ main {
     font-size: xx-large;
 }
 
+/* About Section */
 
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #8e9df4;
+    
+}
 
 
 
