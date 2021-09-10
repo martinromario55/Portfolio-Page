@@ -76,7 +76,7 @@ a:hover {
 /* Heading Section */
 
 main {
-    
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
 .heading {
@@ -99,21 +99,296 @@ main {
     font-size: xx-large;
 }
 
+/* All sections */
+section {
+    
+}
 /* About Section */
 
 .about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #8e9df4;
+    height: 600px;
+    
+}
+
+.about-me h2 {
+    font-size: 3em;
+    font-weight:900;
+    text-align: center;
+    padding: 1em;
+    color: blue;
+}
+
+.about-me p {
+    font-size: x-large;
+    padding: 1em;
+    color: white;
+}
+
+
+.about-mywork p {
+    font-size: large;
+    padding: 1em;
+    color: white;
+}
+
+/* Quotes Section */
+
+.quotes {
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+.quotes h2 {
+    font-size: 3em;
+    font-weight:900;
+    padding: 1em;
+}
+
+#usericon {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex p, aside {
+    font-size: large;
+    padding: 1em;
+}
+
+small {
+    color: royalblue;
+    font-size: large;
+    font-style: italic;
+    opacity: .8;
+}
+
+/* Newsletter Section */
+
+.newsletter {
+    text-align: center;
+    background-color: blue;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    height: 800px;
+}
+
+.newsletter h3 {
+    font-size: 3em;
+    font-weight:900;
+    padding: 1em;
+}
+
+#p1 {
+    font-size: large;
+    padding: 1em;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+
+.newsletter-form {
+    border: 4px solid white;
+    border-radius: 10px;
+    width: 50%;
+    margin: 2em auto;
+    height: 350px;
+}
+
+.newsletter-form h4 {
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 1em;
+}
+
+.newsletter-form p {
+    font-size: large;
+    padding: 1em;
     
 }
 
 
+input {
+    width: 90%;
+    padding: 1em;
+    margin: .2em;
+    border-radius: 10px;
+    font-size: .8em;
+    font-weight: bolder;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    color: blue;
+}
+
+/* Blog Section */
+
+.blog {
+    background-color: #827bc9;
+    text-align: center;
+    height: 700px;
+}
+
+.blog h3 {
+    font-size: 3em;
+    font-weight:900;
+    padding-top: 1em;
+    color: white;
+}
+
+.blog p {
+    font-size: large;
+    color: white;
+    padding: 1em;
+}
+
+.blog-posts {
+    margin-top: 5em;
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-post {
+    border: 15px solid white;
+    height: 200px;
+    margin: 1em;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+.blog-post h4 {
+    padding-top: 2em;
+    font-size: x-large;
+    font-weight: bolder;
+}
 
 
+.blog-post:hover {
+    border: 15px solid #5ce2f1;
+    text-decoration: underline;
+}
 
 
+/* Socialmedia Section */
 
+.socialmedia {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 90%;
+}
+
+.sm {
+    width: 250px;
+    border: 2px solid white;
+    margin: 5px;
+    height: 400px;
+}
+
+.sm p {
+    font-size: large;
+    color: white;
+    padding: 1em;
+}
+
+.social-img {
+    height: 100px;
+    width: 100%;
+}
+
+.social-img img {
+    width: 50%;
+    height: 100%;
+    padding: 1em;
+    border-radius: 40%;
+}
+
+#instagram {
+    background-color: tomato;
+}
+
+#twitter {
+    background-color: royalblue;
+}
+
+#linkedin {
+    background-color: black;
+}
+
+#github {
+    background-color: crimson;
+}
+
+#facebook {
+    background-color: darkblue;
+}
+
+#discord {
+    background-color: darkmagenta;
+}
+
+.sm:hover {
+    opacity: .8;
+}
+
+.details {
+    text-align: center;
+    padding: 1em;
+}
+
+.details p {
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.details:hover {
+    text-decoration: underline red wavy;
+}
+
+
+/* Footer Section */
+footer {
+    height: 400px;
+    background-color: #40406a;
+    color: white;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 8em;
+}
+
+.copyright p {
+    font-size: x-large;
+    font-weight: bolder;
+}
 
 
 
@@ -134,6 +409,11 @@ main {
     .checkbtn {display: none;}
 
     .greeting {width: 40%;}
+
+    .about, .quotes, .newsletter, .blog, .socialmedia {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 320px) {
